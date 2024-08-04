@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .con {
+        background-color: rgb(7, 41, 77) !important;
+        height: 600px;
+        width:600px;
+        border-radius: 15px;
+        margin:30px auto ;
+        box-sizing: border-box;
+      }
+      .bg-body-tertiary{
+        height: 18%;
+        display: flex;
+        background-color: #fff!important;
+      }
+      .bg-body-tertiary img{
+        margin-right:30px;
+        height: 106px;
+        width: auto;
+        background-color: transparent;
+      }
+      .con nav{
+        background-color:rgb(7, 41, 77)!important ;
+        border-radius:12px ;
+      }
+      .container-fluid{
+        margin-top: 50px!important;
+        background-color: rgba(192, 192, 192, 0)!important;
+        border-radius: 7px;
+        height: 6vh;
+        margin: 40px;
+        align-items: center;
+        justify-content: center;
+      }
+      
+     
+      .pagination {
+        display: flex;
+        justify-content:center; /* Distributes the items evenly */
+        width: 88%; /* Ensures the pagination takes the full width of the parent container */ 
+        padding-top: 20px!important;
+        margin-left: 40px; 
+        list-style-type: none; /* Removes default list styling */
+        box-sizing: border-box;  
+    }
+    
+    .page-item {
+        flex: 1; /* Makes each item take up equal space */
+        text-align: center;
+        text-overflow:hidden;
+        font-size: 14px; /* Centers the text within each item */
+    }
+    
+    .page-link {
+        display: block; /* Ensures the link covers the full area of the list item */
+        padding: 10px 0; /* Adds some padding for better clickability */
+    }
+    .pagination a{
+        color: black;
+        font-size: 0.89em;
+    }
+    #student{
+        background-color: orange;
+    }
+      .form-check label{
+        color: white;
+        font-size: 0.85em;
+        margin-bottom: 8px;
+      }
+      .form-check{
+        margin-left: 150px;
+      }
+      .form-check-input{
+        width: 0.7em;
+        height:0.7em;
+      }
+      .form-control{
+        background-color:rgb(7, 41, 77)!important ;
+        width: 88%;
+       margin-left: 6%;
+       margin-right: 6%; 
+       color: #fff!important;
+      }
+      .form-control::placeholder{
+       color:gray;
+      }
+      .label{
+        margin-left: 7%;
+        color: #fff;
+      }
+.o{
+  color: rgba(246, 142, 6, 0.948);
+  margin-left: 5px;
+}
+.w{
+  color: #fff;
+  margin-left:40px ;
+  font-size: 12px;
+}
+.wa{
+  color: #fff;
+  margin-left:160px ;
+  font-size: 12px;
+}
+.abc{
+  color: #fff;
+  margin-left:6% ;
+  font-size: 18px;
+}
+.captcha{
+  display: flex;
+}
+.img1{
+  margin-left: 6%;
+  height: 38px;
+  width:auto;
+  border-radius: 8px;
+}
+.img2{
+  margin-left: 6%;
+  height: 45px;
+  width:auto;
+  border-radius: 8px;
+ 
+}
+#ct{
+  width: 55%;
+  margin-right: 2%;
+  margin-left: 3%;
+}
+.iteam{
+ margin-left: 40%;
+ margin-top: 1%;
+}
+
+
+.full{
+  background-image: url('https://uucms.karnataka.gov.in/Content/images/loginpage-background-image.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#button{
+  margin-left: 22px;
+}
+#button a{
+  text-decoration: none;
+  color: #fff;
+}
+    </style>
+</head>
+<body>
+    <nav class="first"></nav>
+    <nav class="second">
+        <i class="fa-solid fa-envelope" style="color:rgb(41, 97, 138)"></i>
+        <p style="color:#fff;">contact-uucms.helpdesk@gmail.com</p>
+    </nav>
+    <nav class="nav">
+      <div class="a1"></div>
+      <div class="a2"></div>
+      <div class="a3"></div>
+      <div class="a4"></div>
+  </nav>
+    <div class="full">
+    <div class="con">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#" >State Admin</a></li>
+              <li class="page-item"><a class="page-link" href="#">University</a></li>
+              <li class="page-item"><a class="page-link" href="#">College/PG Center</a></li>
+              <li class="page-item" ><a class="page-link" href="#" id="student">Student</a></li>
+              <li class="page-item"><a class="page-link" href="#">KOUS Reg Center</a></li>
+            </ul>
+          </nav>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+            <label class="form-check-label" for="inlineRadio1">Regular Student</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">KOUS Student</label>
+          </div>
+          <p class="label">Username</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder=" Enter Username" aria-label="Username" aria-describedby="basic-addon1" required>
+          </div>
+          <p class="label">Password</p>
+          <div class="input-group mb-3">
+            <input type="password" class="form-control" placeholder=" Enter Password" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <p class="w">Forgot your Username?<spam class="o">click here</spam> <spam class="wa">Forgot your password?</spam><spam class="o">click here</spam></p>
+          <p class="abc">Enter captcha</p>
+          <div class="captcha">
+            <img src="img\captcha.png" alt="captcha" class="img1">
+            <img src="img\refresh.png" alt="refresh" class="img2">
+            <div class="input-group mb-3" id="ct">
+              <input type="text"  class="form-control" placeholder=" Entercaptcha" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+          </div>
+          <div class="iteam">
+          <button type="button" class="btn btn-primary" id="button"><a href="next.html">Log in</a></button>
+        </div>
+            <p class="or">New candidate Registration?</p>
+            <p class="or">Downlode Student Manual?</p>
+        
+          </div>
+          </div>
+         
+          <nav class="footer"><spam class="d">Disclaimer:</spam><p>Please note this page also provides links to websites/web pages of Govt. Ministries/Departments/Organisations.The content of these websites are owned by the respective organisations and they may be contacted for any further information or suggestion</p></nav>
+
+          <nav class="footer"><spam class="d">Technical Help Desk Number :</spam><p> 08069261300(10AM-6PM) Lunch Break(1:30PM-2:15PM)</p></nav>
+          <nav class="white">Designed & Developed by Centre for Smart Governance (V_ADM_4.10_A1.7_E_0.3)</nav>
+                 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>

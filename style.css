@@ -1,0 +1,280 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #fff;
+    overflow-x: scroll;
+    
+  }
+  .first{
+    height: 25px;
+    width: 100%;
+    background-color:#fff;  
+  }
+  .second{
+    height: 35px;
+    width: 100%;
+    background-color:rgb(7, 41, 77);
+    display: flex;
+  align-items: center;
+   padding-left: 5px;
+  }
+  .second p {
+    padding-top:9px;
+    font-size: 0.9em;
+    
+  }
+  .second i{
+    margin-right:6px;
+    padding-bottom: 2px;
+  }
+  .nav{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 2px;
+}
+.a1{
+    background-image: url("https://uucms.karnataka.gov.in/Content/assets/images/UUCMS_Logo-01.png");
+    height: 110px;
+    width:14%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.a2{
+    background-image: url("https://uucms.karnataka.gov.in/Content/assets/images/sid_cm_eng.png");
+    height:110px;
+    width:23%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 8px;
+    margin-left: 45px;
+    
+}
+.a3{
+    background-image: url("https://uucms.karnataka.gov.in/Content/assets/images/new_min_eng.png");
+    height: 110px;
+    width:24%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 8px;
+    margin-left: 70px;
+    
+}
+.a4{
+    background-image: url("https://uucms.karnataka.gov.in/Content/assets/images/gok-logo-uucms-en.png");
+    height: 110px;
+    width:10%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 8px;
+    margin-left: 70px;   
+}
+.b1{
+  background-image: url("img/att1.png");
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+ height: 600px;
+}
+.b2{
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    background-image: url("img/b2.png");
+    background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+
+.menu {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000;
+  width: fit-content;
+  display: flex;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.menu .link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 36px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu .link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu .link svg {
+  width: 14px;
+  height: 14px;
+  fill:#fff;
+  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu .item {
+  position: relative;
+}
+
+.menu .item .submenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  border-radius: 0 0 16px 16px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-12px);
+  z-index: 1;
+  pointer-events: none;
+  list-style: none;
+}
+
+.menu .item:hover .submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+  border-top: transparent;
+  border-color: #fff;
+}
+
+.menu .item:hover .link {
+  color: #ffffff;
+  border-radius: 16px 16px 0 0;
+}
+
+.menu .item:hover .link::after {
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+.menu .item:hover .link svg {
+  fill: #ffffff;
+  transform: rotate(-180deg);
+}
+
+.submenu .submenu-item {
+  width: 100%;
+  color: #000000;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.submenu .submenu-link {
+  display: block;
+  padding: 12px 24px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.submenu .submenu-item:last-child .submenu-link {
+  border-bottom: none;
+}
+
+
+.submenu .submenu-link:hover:before {
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+.submenu .submenu-link:hover {
+  color:rgb(27, 76, 154);
+}
+.item{
+  display: flex;
+  align-items: center;
+  background-color: rgb(9, 43, 80);
+  height: 40px;
+  color: #fff;
+}
+.text{
+ 
+  align-items: center;
+  border-right: #fff 1px solid;
+  padding-right: 5px;
+}
+.text p{
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.person{
+  width: 4%;
+  height: 100%;
+  background-color: rgb(8,172,108);
+  color:white;
+  display: flex;
+  justify-self: center;
+  margin-left: 773px;
+}
+.person i{
+  margin-top: 5px;
+  margin-left: 14px;
+}
+.white{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height:35px;
+  background-color: #fff;
+}
+.or{
+  margin-left: 31%;
+  color:rgba(246, 142, 6, 0.948);
+  font-weight: 400;
+  margin-top: 1.5%;
+}
+.footer{
+  background-color: rgb(7, 41, 77);
+  height:35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p{
+  color: #fff;
+  font-size: 0.79em;
+  margin-top: 1.1%;
+  
+}
+.d{
+  margin-right: 1%;
+  color:rgba(246, 142, 6, 0.948);
+}
+.btm{
+  margin-left: 90%;
+}
