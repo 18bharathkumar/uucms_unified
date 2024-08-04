@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+  .c{
+    margin-left: 74%;
+    font-size: 0.8em;
+    font-weight: 780;
+  }
+  button {
+    color: #090909;
+    padding: 0.6em 1.2em;
+    font-size: 12px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    font-weight: 600;
+  }
+  .abc{
+    color:red;
+  }
+  .cont{
+    height: 33%;
+    width: 100%;
+    border:solid 1px rgb(14, 87, 232);
+    margin-top: 2%;
+    border-radius: 7px;
+    display: grid;
+    justify-content: center;
+    
+  }
+  .cont h2{
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 2.3em;
+    margin-left: 250px;
+  }
+  .cont1{
+    margin-bottom: 100px;
+   
+  }
+  .btn{
+    margin-right: 5px;
+  }
+  
+  .exam{
+    margin-top: 10px;
+    height: 9%;
+    background-color:#f0f4fc;
+    border: 0.05em solid rgba(0, 0, 0, 0.107);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .exam h4{
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 19px;
+  }
+  .red{
+    color:rgba(220, 30, 9, 0.734);
+    margin-top: 23px;
+    margin-left: 30px;
+  }
+  th{
+    background-color: #07294d;
+    color: #FFFFFF;
+    font: 16px "Segoe UI";
+ }
+ td{
+     font: 16px "Segoe UI";
+ }
+
+ a{
+     color:  blue;
+ }
+
+ table {
+   width: 100%;
+   border-collapse: collapse; 
+ }
+  td {
+   padding: 17px; /* Adjust padding as needed */
+   border: 1px solid black; 
+   text-align: center;
+   font-weight:400;
+ }
+ th{
+    border: 1px solid black; 
+    padding:15px;
+    text-align: center;
+    font-weight: 700;
+ }
+ .link{
+    padding:5px;
+    min-width: 150px; 
+    
+ }
+ .link a{
+   margin-bottom: 9px;
+ }
+
+ /* Responsive styles using media queries */
+ @media (max-width: 768px) {
+   /* Styles for smaller screens */
+   th, td {
+     font-size: 0.8rem; /* Adjust font size for smaller screens */
+   }
+ }
+ .col{
+    height: 480px;
+    width: 100%;
+    background-color: #d1ecf1;
+    margin: 6px;
+    border-radius: 10px;
+ }
+ .col h6{
+    font-weight: 690;
+    margin-left: 35px;
+    margin-bottom: 10px!important;
+    padding-top: 20px;
+ }
+ .text{
+    margin: 10px;
+ }
+ .fa-solid{
+    margin-right: 8px;  
+ }
+ @media (max-width: 600px) {
+    .col {
+        margin: 0; /* Remove margins on smaller screens */
+        border-radius: 0; /* Remove border radius on smaller screens */
+    }
+
+    .col h6 {
+        margin-left: 15px; /* Adjust margin for better spacing on mobile */
+        padding-top: 15px; /* Adjust padding for better spacing on mobile */
+    }
+
+    .text {
+        padding: 10px 15px; /* Adjust padding for better spacing on mobile */
+    }
+}
+    </style>
+    </head>
+    
+    <body>
+        <nav class="second">
+            <i class="fa-solid fa-envelope" style="color:rgb(41, 97, 138)"></i>
+            <p style="color:#fff;">contact-uucms.helpdesk@gmail.com</p>
+        </nav>
+        <nav class="nav">
+            <div class="a1"></div>
+            <div class="a2"></div>
+            <div class="a3"></div>
+            <div class="a4"></div>
+        </nav>
+        <nav class="item">
+            <div class="text">
+                <p>Home</p>
+            </div>
+<div class="text">              
+<div class="menu">
+  <div class="item">
+    <a href="#" class="link">
+      <span> Student </span>
+      <svg viewBox="0 0 360 360" xml:space="preserve">
+        <g id="SVGRepo_iconCarrier">
+          <path
+            id="XMLID_225_"
+            d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"
+          ></path>
+        </g>
+      </svg>
+    </a>
+    <div class="submenu">
+      <div class="submenu-item">
+        <a href="#" class="submenu-link">Student Profile </a>
+      </div>
+      <div class="submenu-item">
+        <a href="#" class="submenu-link"> Scholarship </a>
+      </div>
+      <div class="submenu-item">
+        <a href="#" class="submenu-link"> Hostel Notification </a>
+      </div>
+      <div class="submenu-item">
+        <a href="#" class="submenu-link"> Placement News</a>
+      </div>
+    </div>
+  </div>
+</div>
+ </div>
+ <div class="text">
+            <div class="menu">
+                <div class="item">
+                  <a href="#" class="link">
+                    <span> Academics </span>
+                    <svg viewBox="0 0 360 360" xml:space="preserve">
+                      <g id="SVGRepo_iconCarrier">
+                        <path
+                          id="XMLID_225_"
+                          d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-item">
+                      <a href="#" class="submenu-link">Course Registration </a>
+                    </div>
+                    <div class="submenu-item">
+                      <a href="#" class="submenu-link"> Academic Calender of Events</a>
+                    </div>
+                    <div class="submenu-item">
+                      <a href="#" class="submenu-link"> View Timetable </a>
+                    </div>
+                    <div class="submenu-item">
+                      <a href="#" class="submenu-link">Procter or Counsellor</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+            <div class="menu">
+                <div class="item">
+                  <a href="#" class="link">
+                    <span> Exam </span>
+                    <svg viewBox="0 0 360 360" xml:space="preserve">
+                      <g id="SVGRepo_iconCarrier">
+                        <path
+                          id="XMLID_225_"
+                          d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-item">
+                      <a href="exam.html" class="submenu-link">Exam Applications </a>
+                    </div>
+                    <div class="submenu-item">
+                      <a href="#" class="submenu-link"> Student Fee Payment Transation Details</a>
+                    </div>
+                    <div class="submenu-item">
+                      <a href="#" class="submenu-link"> Exam Re-evaluation </a>
+                    </div>
+                    <div class="submenu-item">
+                      <a href="#" class="submenu-link">Rejection of result</a>
+                    </div>
+                    <div class="submenu-item">
+                        <a href="#" class="submenu-link">Challenge Valuation</a>
+                      </div>
+                      <div class="submenu-item">
+                        <a href="#" class="submenu-link">Convocation</a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+                <div class="menu">
+                    <div class="item">
+                      <a href="#" class="link">
+                        <span> Reports </span>
+                        <svg viewBox="0 0 360 360" xml:space="preserve">
+                          <g id="SVGRepo_iconCarrier">
+                            <path
+                              id="XMLID_225_"
+                              d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"
+                            ></path>
+                          </g>
+                        </svg>
+                      </a>
+                      <div class="submenu">
+                        <div class="submenu-item">
+                          <a href="#" class="submenu-link">Admission Payment Transation History</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="person" style="margin-left:650px;"><i class="fa-solid fa-circle-user fa-2x "></i></div>
+        </nav>
+<p class="c">Thilak Sagar N(University Visvesvaraya College of Engineering )</p>
+<button class="btm"><span class="abc">Home</span> / Free details</button>
+<nav class="exam">
+<h4>Exam Application</h4>
+</nav>
+<p class="red">
+    * Exam application form will be auto filled as per exam notification dates specified by respective university
+</p>
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>SL.NO.</th>
+                <th>Academic Year</th>
+                <th>Exam Month</th>
+                <th>Exam Type</th>
+                <th>Program level</th>
+                <th>Program name</th>
+                <th>Exam notified terms</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2023-24</td>
+                <td>JU/AUG/5SEMBTBA/2024 (2241477)</td>
+                <td>Regular Exam</td>
+                <td>UG</td>
+                <td>Bachelor of Technology</td>
+                <td> V</td>
+                <td>Exam application Approved</td>
+                <td class="link">
+                    <a href="#">View Application</a><br/>
+                    <a href="atteddence1.html">View Attendance</a>
+                    <p>Result Not yet Published</p>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2022-23</td>
+                <td>JAN/FEB/4SEM/BT&BA (2241208)</td>
+                <td>Regular Exam</td>
+                <td>UG</td>
+                <td>Bachelor of Technology</td>
+                <td> IV</td>
+                <td>Exam application Approved</td>
+                <td class="link">
+                    <a href="#">View Application</a><br/>
+                    <a href="result2.html">view result</a><br/>
+                    <a href="atteddence1.html">View Attendance</a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2021-22</td>
+                <td>DEC/JAN/2BTECH (2221121)</td>
+                <td>Regular Exam</td>
+                <td>UG</td>
+                <td>Bachelor of Technology</td>
+                <td> II</td>
+                <td>Exam application Approved</td>
+                <td class="link">
+                    <a href="#">View Application</a><br/>
+                    <a href="result3.html">view result</a><br/>
+                    <a href="atteddence1.html">View Attendance</a>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>2022-23	</td>
+                <td>AUG/SEP/BT/BR/1/2/3 (2241088)</td>
+                <td>Regular Exam</td>
+                <td>UG</td>
+                <td>Bachelor of Technology</td>
+                <td>I , II , III</td>
+                <td>Exam application Approved</td>
+                <td class="link">
+                    <a href="#">View Application</a><br/>
+                    <a href="result4.html">View Result</a>
+                    <br/>
+                    <a href="atteddence1.html">View Attendance</a>
+                   
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>2021-22</td>
+                <td>JUN/JUL BTECH (2221041)	</td>
+                <td>Regular Exam</td>
+                <td>UG</td>
+                <td>Bachelor of Technology</td>
+                <td> I</td>
+                <td>Exam application Approved</td>
+                <td class="link">
+                    <a href="#">View Application</a><br/>
+                    <a href="result5.html">view result</a><br/>
+                    <a href="atteddence1.html">View Attendance</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="col">
+   <div class="text">
+    <h6> <i class="fa-solid fa-triangle-exclamation" ></i>Important - Pre Activity</h6>
+        <ol>
+            <li>Please verify all the course codes before paying the fees.</li>
+            <li>
+                The fees will be based on the fee set by the university
+                <ul>
+                    <li>Income limit</li>
+                    <li>Gender</li>
+                    <li>Category</li>
+                    <li>Reservation claim status of Student</li>
+                    <li>Amount will be visible after university sets the fee.</li>
+                </ul>
+            </li>
+            <li>QP Codes need to be set for all courses in the curriculum.</li>
+            <li>The registered curriculum of the student should be approved by the Principal and also the admission should be approved by the Registrar.</li>
+            <li>Application fee paying between start date of application pay and last date of application fee (2nd Penalty) set in exam notification.</li>
+            <li>If the pay button is missing in new application, here might be the following reasons:
+                <ul>
+                    <li>Curriculum not set.</li>
+                    <li>Curriculum not approved.</li>
+                    <li>QP Codes not set for all curriculum.</li>
+                    <li>Exam fee was not set by the university.</li>
+                </ul>
+            </li>
+            <li>Course registration for Eligible notification is mandatory to apply for the exam.</li>
+            <li>Special case late fee has to be set in general fee and special case last date penalty in exam notification has to be set.</li>
+        </ol>
+    </div>
+</div>  
+</div>
+
+
+    </body>
